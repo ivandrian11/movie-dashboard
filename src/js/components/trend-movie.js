@@ -17,10 +17,10 @@ class TrendMovie extends HTMLElement {
             <h4 class="font-semibold whitespace-nowrap overflow-clip">
                 ${this._item.title}
             </h4>
-            <p class="text-xs text-gray-2">${this._item.release_date.slice(
-              0,
-              4
-            )} • ${this._item.genres.join(', ')}</p>
+            <p class="text-xs text-gray-2 whitespace-nowrap overflow-clip">
+            ${this._item.release_date.slice(0, 4)} • ${this._item.genres.join(
+      ', '
+    )}</p>
         </div>
     </div>
     `
