@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.tick-blur {
+  background: rgb(248, 36, 47);
+  filter: blur(16px);
+}
+
+.headline-blur {
+  background: linear-gradient(
+    -72deg,
+    rgba(25, 24, 23, 0) 30%,
+    rgba(25, 24, 23, 1) 70%
+  );
+}
+
+.bottom-blur {
+  background: rgba(25, 24, 23, 1);
+  filter: blur(20px);
+}
+
+.genre-item {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(11px);
+}
+
+.glass-effect {
+  background: rgba(5, 5, 4, 0.16);
+  backdrop-filter: blur(10px);
+}
