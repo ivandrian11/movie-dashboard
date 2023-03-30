@@ -5,7 +5,7 @@ class SideFilm extends HTMLElement {
   }
 
   render () {
-    this.innerHTML = `<div class="flex items-center gap-x-4 cursor-pointer">
+    this.innerHTML = `<article class="flex items-center gap-x-4 cursor-pointer">
         <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2${
           this._item.poster_path
         }"
@@ -18,7 +18,7 @@ class SideFilm extends HTMLElement {
               ', '
             )}</p>
         </div>
-    </div>`
+    </article>`
   }
 }
 
