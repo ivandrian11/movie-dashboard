@@ -14,7 +14,7 @@ class Headline extends HTMLElement {
         <div class="absolute top-0 w-96 headline-blur h-[30rem]"></div>
         <div class="absolute right-0 top-0 rotate-180 w-96 headline-blur h-[30rem]"></div>
         <div class="absolute p-8 top-[20%]">
-            <h2 class="text-3xl font-semibold">${this._film.title}</h2>
+            <h1 class="text-3xl font-semibold">${this._film.title}</h1>
             <div id="genre-list" class="flex mt-5 gap-x-2"></div>
             <button
                 class="flex items-center justify-center py-3 mt-8 text-lg font-semibold rounded-full w-44 bg-red gap-x-2">Watch

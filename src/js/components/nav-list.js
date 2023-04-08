@@ -12,7 +12,7 @@ class NavList extends HTMLElement {
       if (index !== 0) {
         container.classList.add('mt-8')
       }
-      const title = document.createElement('h6')
+      const title = document.createElement('h2')
       title.innerText = menu.title
       title.classList.add(
         'text-sm',
