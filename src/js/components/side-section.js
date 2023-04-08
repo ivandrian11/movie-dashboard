@@ -8,11 +8,11 @@ class SideSection extends HTMLElement {
 
   render () {
     this.innerHTML = `
-        <h3 class="text-xl font-semibold">Continue watching</h3>
+        <h2 class="text-xl font-semibold">Continue watching</h2>
         <div id="history" class="flex flex-col mt-5 gap-y-4"></div>
         <button class="w-full p-3 mt-6 border rounded-full bg-background border-gray-1">See All</button>
         <hr class="w-full my-6 border border-gray-1">
-        <h3 class="text-xl font-semibold">Wishlist</h3>
+        <h2 class="text-xl font-semibold">Wishlist</h2>
         <div id="wishlist" class="flex flex-col mt-5 gap-y-4"></div>
     `
 

@@ -11,9 +11,9 @@ class SideFilm extends HTMLElement {
         }"
             alt="${this._item.title}" class="h-32 rounded">
         <div class="space-y-2">
-            <h4 class="text-sm font-semibold xl:text-base">${
+            <h3 class="text-sm font-semibold xl:text-base">${
               this._item.title
-            } (${this._item.release_date.slice(0, 4)})</h4>
+            } (${this._item.release_date.slice(0, 4)})</h3>
             <p class="text-xs xl:text-sm text-gray-2">${this._item.genres.join(
               ', '
             )}</p>
